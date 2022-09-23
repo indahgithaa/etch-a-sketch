@@ -1,0 +1,167 @@
+@font-face {
+    font-family: coffee;
+    src: url(fonts/Milky\ Coffee.ttf);
+}
+
+@font-face {
+    font-family: parade;
+    src: url(fonts/Black\ Parade\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: nunito-bold;
+    src: url(fonts/Nunito-Bold.ttf);
+}
+
+body {
+    background-image: url('images/background.jpg');
+    padding: 5px;
+}
+
+h1 {
+    margin-top: 30px;
+    font-family: parade;
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.basic-options {
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-template-rows: 30px 30px;
+    gap: 10px 10px;
+    margin-right: 50px;
+}
+
+h6 {
+    margin-top: 190px;
+    font-family: nunito-bold;
+    font-size: 20px;
+    color: beige;
+}
+
+#on-grid {
+    margin-left: 15px;
+}
+
+.other-colours {
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px;
+    grid-template-rows: 25px 25px;
+    gap: 7px 7px;
+}
+
+.setting {
+    font-family: nunito;
+}
+.colour-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 500px;
+    max-height: 70px;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: ease-in;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.slider {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#pick {width: 70px; height: 30px;}
+
+.setting {
+    display: flex;
+    flex-direction: row;
+}
+
+.sliderPosition {
+    display: flex;
+    flex-direction: column;
+}
+
+#switchBtn {
+    display: flex;
+    flex-direction: row;
+}
+
+.warning {
+    width: 500px;
+    height: auto;
+    padding: 3px;
+    font-family: nunito;
+}
+
+.warning > h3 {
+    font-family: nunito-bold;
+}
+
+.warning > p {
+    margin-top: -10px;
+}
+
+/* js system */
+.grid-container {
+    display: grid;
+    border: 2.5px solid black;
+    box-shadow: 0.7px 0.7px 3px 3px black;
+    width: 600px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid grey;
+}
+
+button, #pick {
+    font-family: nunito-bold;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.black {background-color: black;}
+.brown {background-color: brown;}
+.darkgreen {background-color: darkgreen;}
+.purple {background-color: purple}
+.grey {background-color: grey;}
+.silver {background-color: silver;}
+.red {background-color: red;}
+.fuchsia {background-color: fuchsia;}
+.orange {background-color: orange;}
+.yellow {background-color: yellow;}
+.green {background-color: green;}
+.greenyellow {background-color: greenyellow;}
+.darkblue {background-color: darkblue;}
+.blue {background-color: blue;}
+.lightblue {background-color: lightblue;}
+.blueviolet {background-color: blueviolet;}

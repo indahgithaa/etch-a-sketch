@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <head>
+        <title>Etch a Sketch</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+
+        <section class="centered">
+        <div class="page">
+
+        <h1>Etch-A-Sketch!)</h1>
+
+        <div class="setting">
+            <div class="sliderPosition">
+                <section class="sketch-size">16 x 16</section>
+                <span><input class="slider" type="range" value="16" min="1" max="100"></span>
+            </div>
+            <span id="switchBtn">
+                <input type="checkbox" id="on-grid" onclick="border()">
+                <p>Plain Board</p>
+            </span>
+        </div>
+
+        <section class="colour-options">
+            <div class="basic-options">
+                <input id="pick" type="color" value="#333333"></input>
+                <button class="rainbow">Rainbow</button>
+                <button class="eraser">Eraser</button>
+                <button class="reset">Reset</button>
+            </div>
+            <div class="other-colours">
+                <button class="black" id="basicColor"></button>
+                <button class="grey" id="basicColor"></button>
+                <button class="silver" id="basicColor"></button>
+                <button class="brown" id="basicColor"></button>
+                <button class="darkgreen" id="basicColor"></button>
+                <button class="green" id="basicColor"></button>
+                <button class="greenyellow" id="basicColor"></button>
+                <button class="yellow" id="basicColor"></button>
+                <button class="darkblue" id="basicColor"></button>
+                <button class="blue" id="basicColor"></button>
+                <button class="lightblue" id="basicColor"></button>
+                <button class="purple" id="basicColor"></button>
+                <button class="blueviolet" id="basicColor"></button>
+                <button class="fuchsia" id="basicColor"></button>
+                <button class="red" id="basicColor"></button>
+                <button class="orange" id="basicColor"></button>
+            </div>
+        </section>
+        <div class="warning">
+            <h3>Warning!</h3>
+            <p>Resetting the grid size and lines will remove your entire drawings! Please consider carefully before applying it :) </p>
+        </div>
+
+        <footer>
+            <h6>Lemonice (2022)</h6>
+        </footer>
+    </div>
+
+    <div class="page2">
+        <div class="grid-container"></div>
+    </div>
+
+</section>
+<script src="script.js"></script>
+    </body>
+</html>
