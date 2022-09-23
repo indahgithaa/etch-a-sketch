@@ -130,7 +130,7 @@ function border() {
             const square = document.createElement('div')
             square.classList.add('square')
             board.appendChild(square)
-            square.style.borderColor = 'white'
+            square.style.border = '0px'
         } 
     } else {
         adjustGrid()
