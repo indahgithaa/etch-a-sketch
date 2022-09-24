@@ -15,4 +15,4 @@ It's basically a web version of sketchpad that allows you to draw a pixel-styled
 * How to receive the input from HTML input attributes and attach it into a specific element or event. I used it to create the functionalities of the grid size and customable color options.
 * And many more...
 
-Background image by: [Faris M.](https://unsplash.com/photos/GyzwmohTbaQ)
+Background image by: [Sarah Brown](https://unsplash.com/photos/Yova_ho8NhU)
