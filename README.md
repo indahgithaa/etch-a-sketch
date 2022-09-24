@@ -2,7 +2,9 @@
 
 [Click here](https://lemonice888.github.io/etch-a-sketch) for live preview!
 
-It's basically a web version of sketchpad that allows you to draw a pixel-styled art.
+![review](images/screenshot.png)
+
+It's a web version of sketchpad that allows you to draw a pixel-styled art.
 
 ## Technologies I Used
 * HTML
