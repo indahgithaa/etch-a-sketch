@@ -1,6 +1,6 @@
 # Etch a Sketch!
 
-[Click here](https://lemonice888.github.io/etch-a-sketch) for live preview!
+[Click here](https://lemonaisu888.github.io/etch-a-sketch) for live preview!
 
 ![review](images/screenshot.png)
 
